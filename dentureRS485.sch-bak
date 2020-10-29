@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:dentureRS485-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -173,13 +174,13 @@ U 1 1 5D12D0B9
 P 6150 3850
 F 0 "J4" H 6068 4367 50  0000 C CNN
 F 1 "Conn_01x08" H 6068 4276 50  0000 C CNN
-F 2 "my-kicad-footprints:LAN_RJ45_Neltron_Industrial_7810-8P8C" H 6150 3850 50  0001 C CNN
+F 2 "footprints:RJ45_Neltron_Industrial_7810-8P8C" H 6150 3850 50  0001 C CNN
 F 3 "~" H 6150 3850 50  0001 C CNN
 	1    6150 3850
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dentureRS485-rescue:Jumper_NC_Small-Device JP6
+L Device:Jumper_NC_Small JP6
 U 1 1 5D12DF94
 P 6450 3750
 F 0 "JP6" H 6700 3700 50  0000 C CNN
@@ -190,7 +191,7 @@ F 3 "~" H 6450 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dentureRS485-rescue:Jumper_NC_Small-Device JP7
+L Device:Jumper_NC_Small JP7
 U 1 1 5D138DF7
 P 6450 3650
 F 0 "JP7" H 6450 3800 50  0000 C CNN
@@ -202,7 +203,7 @@ F 3 "~" H 6450 3650 50  0001 C CNN
 $EndComp
 Connection ~ 6350 3650
 $Comp
-L dentureRS485-rescue:Jumper_NC_Small-Device JP5
+L Device:Jumper_NC_Small JP5
 U 1 1 5D138FFF
 P 6450 4050
 F 0 "JP5" H 6450 4200 50  0000 C CNN
@@ -254,7 +255,7 @@ Text Label 7900 3200 2    50   ~ 0
 Wire Wire Line
 	5900 2650 5800 2650
 $Comp
-L dentureRS485-rescue:Jumper_NC_Small-Device JP3
+L Device:Jumper_NC_Small JP3
 U 1 1 5D16E094
 P 5700 2050
 F 0 "JP3" H 5600 2100 50  0000 C CNN
@@ -265,7 +266,7 @@ F 3 "~" H 5700 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dentureRS485-rescue:Jumper_NC_Small-Device JP2
+L Device:Jumper_NC_Small JP2
 U 1 1 5D17239C
 P 5600 2050
 F 0 "JP2" H 5500 2100 50  0000 C CNN
@@ -276,7 +277,7 @@ F 3 "~" H 5600 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dentureRS485-rescue:Jumper_NC_Small-Device JP1
+L Device:Jumper_NC_Small JP1
 U 1 1 5D172620
 P 5500 2050
 F 0 "JP1" H 5400 2100 50  0000 C CNN
@@ -376,7 +377,7 @@ Connection ~ 5500 2250
 Wire Wire Line
 	5500 2250 5900 2250
 $Comp
-L dentureRS485-rescue:Jumper_NC_Small-Device JP4
+L Device:Jumper_NC_Small JP4
 U 1 1 5D13C5B2
 P 5800 2050
 F 0 "JP4" H 5700 2100 50  0000 C CNN
